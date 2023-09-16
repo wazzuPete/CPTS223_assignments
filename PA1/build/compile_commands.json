@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/lago_pete/PA1/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++11 -o CMakeFiles/PA1.dir/main.cpp.o -c /home/lago_pete/PA1/main.cpp",
+  "file": "/home/lago_pete/PA1/main.cpp"
+},
+{
+  "directory": "/home/lago_pete/PA1/build",
+  "command": "/usr/bin/g++    -Wall -g -std=gnu++11 -o CMakeFiles/PA1.dir/App.cpp.o -c /home/lago_pete/PA1/App.cpp",
+  "file": "/home/lago_pete/PA1/App.cpp"
+}
+]

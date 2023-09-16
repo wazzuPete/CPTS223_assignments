@@ -1,0 +1,3 @@
+/home/lago_pete/PA1/CMakeFiles/PA1.dir
+/home/lago_pete/PA1/CMakeFiles/edit_cache.dir
+/home/lago_pete/PA1/CMakeFiles/rebuild_cache.dir
