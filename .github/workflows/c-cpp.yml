@@ -15,5 +15,6 @@ jobs:
       # Choose the working directory
       working-directory: ${{github.workspace}}/PA1 # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
       shell: bash
-     
-      run: (mkdir build;cmake -B build -S .;cmake --build build) # NO NEED TO CHANGE HERE
+
+     #this is justin here do not mkdir a new build folder you already have one
+      run: (cmake -B build -S .;cmake --build build) # NO NEED TO CHANGE HERE
