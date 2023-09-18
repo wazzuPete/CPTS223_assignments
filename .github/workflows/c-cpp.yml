@@ -1,23 +1,19 @@
-name: C/C++ CI
+name: CMake compilation # NO NEED TO CHANGE HERE
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: [push] # NO NEED TO CHANGE HERE
+
+env:
+  BUILD_TYPE: Release # NO NEED TO CHANGE HERE
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04 # NO NEED TO CHANGE HERE
 
     steps:
-    - uses: actions/checkout@v3
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - uses: actions/checkout@v2 # NO NEED TO CHANGE HERE
+    - name: Build CMake example # NO NEED TO CHANGE HERE
+      # Choose the working directory
+      working-directory: ${{github.workspace}}/PA1 # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
+      shell: bash
+     
+      run: (mkdir build;cmake -B build -S .;cmake --build build) # NO NEED TO CHANGE HERE
