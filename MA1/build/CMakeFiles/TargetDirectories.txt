@@ -1,3 +1,0 @@
-/home/lago_pete/MA1/build/CMakeFiles/my_app.dir
-/home/lago_pete/MA1/build/CMakeFiles/edit_cache.dir
-/home/lago_pete/MA1/build/CMakeFiles/rebuild_cache.dir
