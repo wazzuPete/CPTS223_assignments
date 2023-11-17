@@ -1,3 +1,0 @@
-/home/lago_pete/MA3/CMakeFiles/MA3.dir
-/home/lago_pete/MA3/CMakeFiles/edit_cache.dir
-/home/lago_pete/MA3/CMakeFiles/rebuild_cache.dir
